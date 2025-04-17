@@ -1,3 +1,4 @@
+import BannerCardItem from './components/BannerCardItem'
 import './App.css'
 
 const bannerCardsList = [

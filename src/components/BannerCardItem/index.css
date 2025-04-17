@@ -19,3 +19,63 @@
 }
 
 /* Write your code here. */
+.banner-card {
+  padding: 20px;
+  color: #326a9d;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.banner-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.banner-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.banner-button {
+  background-color: #ffffff;
+  color: #326a9d;
+  padding: 8px 16px;
+  border: 5px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.banner-card-1 {
+  background-color: #326a9d;
+}
+
+.banner-card-2 {
+  background-color: #64748b;
+}
+
+.banner-card-3 {
+  background-color: #1e293b;
+}
+
+@media (min-width: 991px) {
+  .card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .card-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
